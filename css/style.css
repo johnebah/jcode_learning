@@ -117,7 +117,6 @@ body{
     color:white;
     font-style: italic;
     font-weight: lighter;
-    line-height: 10px;
 }
 #banner p{
     color:white;
@@ -457,6 +456,9 @@ footer .content{
     .header .nav .social{
         display: none;
      }
+    #banner .trial .reg{
+        margin-top:12px;
+    }
      .header .nav .toggle{
        display: block;
        position: absolute;
