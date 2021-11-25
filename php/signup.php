@@ -9,8 +9,8 @@
     if (!empty($name) && !empty($email) && !empty($course) && !empty($mobile)) {
        if (filter_var($email,FILTER_VALIDATE_EMAIL)) {
            $id = rand(time(),100000);
-            $sql = mysqli_query($con,"INSERT INTO users(unique_id,name,email,course,mobile)
-                VALUES('$id','$name','$email','$course','$mobile');
+            $sql = mysqli_query($con,"INSERT INTO user(unique_id,name,email,course,mobile)
+                VALUES('{$id}','{$name}','{$email}','{$course}','{$mobile}');
              ");
              if ($sql) {
                  echo "success";
