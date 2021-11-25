@@ -1,6 +1,6 @@
 <?php
-    $con = mysqli_connect("remotemysql.com", "4KhahQocon", "V5mdTKpFwf", "4KhahQocon");
+    $con = mysqli_connect("remotemysql.com", "4KhahQocon", "7xFcs5hKF3", "4KhahQocon");
     if (!$con) {
-        echo "No database found";
+        echo "<script>alert('No database found')</script>";
     }
 ?>
