@@ -38,7 +38,7 @@
                                         <option>Choose to learn a single programming language</option>
                                     </select></p>
                                     <p><input type="text" placeholder="Mobile No." class="form-control" name="mobile"></p>
-                                    <p><input type="submit" value="REGISTER" class="btn btn-danger btn-lg" style="width: 100%;" onclick="register()"></p>
+                                    <p><a href="quick.php"><input type="button" value="REGISTER" class="btn btn-danger btn-lg" style="width: 100%;" onclick=""></a></p>
                                 </form>
                             </div>
                         </div>
