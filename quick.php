@@ -30,7 +30,7 @@
         }
 
         function randomReference() {
-            var length = 1;
+            var length = 10;
             var chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
             var result = '';
             for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
@@ -91,7 +91,7 @@
             <form method='POST' action='https://newwebpay.interswitchng.com/collections/w/pay'>
 
                 <!-- Hidden parameters containing interswitch merchant credentials -->
-                <input type="hidden"  name='amount' value="100000"/>
+                <input type="hidden"  name='amount' value="60"/>
                 <input type="hidden"  name='currency' value="566"/>
                 <input type="hidden" name='txn_ref' id="tranRef"/>
                 <input type="hidden"  name='merchant_code'/>
