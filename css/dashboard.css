@@ -1,0 +1,165 @@
+/*.dashboard{
+    border-top: 2px solid black;
+}
+.dashboard .rtext .main-rtext h5{
+    text-align: center;
+    font-family: calibri;
+}
+.dashboard .rtext .main-rtext p{
+    font-family: calibri;
+}
+.dashboard .rtext .main-rtext{
+   background-color: whitesmoke;
+   border-radius: 15px;
+   padding: 12px;
+   margin-top: 40px;
+}
+.dashboard .rtext .main-rtext form{
+    display: flex;
+}
+.dashboard .rtext .main-rtext img{
+    border-radius: 50%;
+}
+.dashboard h2{
+    text-align: center;
+    font-family: calibri;
+    margin-top: 30px;
+}
+.shop-list{
+    display: flex;
+}
+.shop-list p{
+    padding: 5px 15px;
+    font-family: calibri;
+    font-weight: bolder;
+}
+.questionaire form{
+    display: block;
+    margin-top: 20px;
+}
+.questionaire form textarea{
+    resize: none;
+}
+
+.questionaire form p{
+   font-family: calibri;
+   font-weight: bolder;
+   text-align: center;
+}
+.cart{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.tutor form textarea{resize: none;}
+.admin h2{
+    font-family: calibri;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.h2{
+    background-color:rgb(8, 70, 105) ;
+    color: white;
+}
+.h3 h2{
+    color: black;
+}
+.h3{
+    background-color:white ;
+    color: black;
+    border-bottom: 2px solid black;
+}
+.h2 p{
+    color:white;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+.h3 p{
+    color:black;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+.stable{
+    overflow-y: scroll;
+    height: 200px;
+}
+.student-chat p{
+    background-color:rgb(8, 70, 105) ;
+    color:white;
+    border-radius: 15px;
+    border: 2px solid rgb(8, 70, 105);
+    width: 50%;
+    margin-left: 25px;
+    padding:5px;
+    font-family: calibri;
+}
+.admin-chat p{
+    background-color:white ;
+    color:black;
+    border-radius: 15px;
+    border: 2px solid grey;
+    width: 50%;
+    margin-left: 145px;
+    padding: 5px;
+    font-family: calibri;
+}
+.two-chat{
+    background-color: grey;
+    padding: 20px;
+    overflow-y: scroll;
+    height: 300px;
+}*/
+.profile{
+    border-right: 2px solid grey;
+}
+.dash h2{
+    text-align: center;
+    font-family: calibri;
+}
+.style h2{
+     text-align: center;
+    font-family: calibri;
+}
+.drew li a{
+    color:black;
+}
+.book_title h2{
+    text-align: center;
+    font-family: calibri;
+    margin-top: 20px;
+    color:white;
+}
+.book_title{
+    background-color: rgb(8, 70, 105);
+
+}
+.tt h4{
+    font-family: calibri;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.free-text p{
+    font-size: 20px;
+    line-height: 50px;
+    font-family: calibri;
+   
+}
+
+@media(max-width:900px){
+.profile{
+    border-right: none;
+    background-color: rgb(8, 70, 105);
+    color:white;
+}
+.drew li a{
+    color:white;
+}
+.dash h2{
+    text-align: center;
+    font-family: calibri;
+    margin-top: 40px;
+}
+}
