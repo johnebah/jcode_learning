@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar-brand img{
+	width:80px;
+}
+.nav-link{
+	color:black;
+}
+.link{
+	/* box-shadow: 3px 3px 3px 3px grey; */
+	background: linear-gradient(to right,rgb(216, 211, 211),rgba(248, 243, 243, 0.342));
+	margin-right: 80px;
+}
+.navigation{
+	padding:0px 50px 0px 50px;
+}
+.nav-item{
+	font-size: 20px;
+}
+
+@media(max-width:900px){
+	.sole button img{
+		width: 100px;
+		height: 100px;
+	}
+	.sole{
+		padding: 5px 12px;
+	}
+	.sole h5{
+		font-weight: bolder;
+		font-size: 10px;
+	}
+	.sole p{
+		font-weight: bold;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 10px;
+	}
+	.link{
+		/* box-shadow: 3px 3px 3px 3px grey; */
+		background: linear-gradient(to right,rgb(216, 211, 211),rgba(248, 243, 243, 0.342));
+		margin-right: 10px;
+	}
+	.banner .circle{
+		display: none;
+	}
+	.cart{
+		position:fixed;
+		left: 80%;
+		top: 50%;
+		background-color: skyblue;
+		width: 100px;
+		padding: 5px;
+	}
+	.cart h1{
+		color:red;
+		font-family: algerian;
+	}
+	.carts{
+		position:fixed;
+		left: 80%;
+		top: 20%;
+		background-color: skyblue;
+		width: 100px;
+		padding: 5px;
+	}
+	.carts h1{
+		color:red;
+		font-family: algerian;
+	}
+	.custom{
+		overflow-x: scroll;
+	}
+}
